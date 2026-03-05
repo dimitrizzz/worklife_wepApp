@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark, .dark *));
+
+html, body, #root {
+  height: 100%;
+}
+
+html {
+  --app-font-scale: 1;
+  font-size: calc(16px * var(--app-font-scale));
+}
+
+body {
+  margin: 0;
+}
